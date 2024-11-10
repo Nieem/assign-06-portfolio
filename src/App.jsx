@@ -7,6 +7,8 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import About from './components/About'
 import Services from './components/Services'
+import Contact from './components/Contact'
+import Work from './components/Work'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +16,6 @@ function App() {
   return (
     <>
       <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-        <h1 className='font-bold'>hello</h1>
         <Header/>
         <Banner/>
         <Navbar/>
@@ -22,6 +23,7 @@ function App() {
         <Services/>
         <Work/>
         <Contact/>
+        <div className='h-[4000px]'></div>
         </div>
     </>
   )

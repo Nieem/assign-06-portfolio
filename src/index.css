@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  } 
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+  
+  
+}

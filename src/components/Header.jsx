@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
+        <div className='bg-red-400'>
             header
         </div>
     );
