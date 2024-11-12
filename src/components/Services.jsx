@@ -33,7 +33,7 @@ const Services = () => {
                 <div className='flex flex-col lg:flex-row'>
 
                     
-
+                    {/* left part */}
                     <motion.div 
                     variants={fadeIn('right',0.3)}
                                         initial='hidden'
@@ -47,8 +47,8 @@ const Services = () => {
                              <button className='btn btn-sm'>see my work</button>
                     </motion.div>
                     
-                    
-                
+                    {/* end left part */}
+                {/*start right  part */}
                     <div>
                         {
                             services.map((service,index)=>{
@@ -70,6 +70,7 @@ const Services = () => {
                             
                         }) }
                     </div> 
+                     {/*end right  part */}
                     
                 </div>
             </div> 
