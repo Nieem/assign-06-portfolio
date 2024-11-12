@@ -44,9 +44,7 @@
   body {
     @apply font-secondary text-lg leading-8 text-white;
   } 
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
-  }
+
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
   }
@@ -68,5 +66,8 @@
   }
   .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
