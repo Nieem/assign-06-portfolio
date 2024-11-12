@@ -1,9 +1,10 @@
 import React from 'react';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion';
-import img1 from '../assets/portfolio-img1.png';
-import img2 from '../assets/portfolio-img2.png';
-import img3 from '../assets/portfolio-img3.png';
+import img1 from '../assets/food.png';
+import img2 from '../assets/it.jpg';
+import img3 from '../assets/book.jpg';
+
 
 const Work = () => {
     return (
@@ -24,11 +25,11 @@ const Work = () => {
                         </h2>
                         <p className='max-w-sm'>
                         
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        All of the projects below are the most recent work by me.You can check by live url and also goto projects github repo.
                         </p>
-                        <button className='btn btn-sm'>View All Projects</button>
+                        <button className='btn btn-sm mt-2'>View All Projects</button>
                     </div>
-                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl xl: mt-16'>
                         {/* overlay */}
                         <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
 
@@ -36,12 +37,33 @@ const Work = () => {
                         <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt=''/>
                         {/* pretitle */}
                         <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
-                            <span className='text-gray-300'>UI/UX Design</span></div>
+                            <span className='text-gray-300'> Raw Javascript Api Handeling</span>
+                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 group-hover:bottom-14 
                         transition-all duration-700 z-40'>
-                            <span className='text-3xl text-white'>Portfolio</span>
+                            <span className='text-3xl text-white'>Food Bar Portal</span>
                         </div>
+                        <a
+                            href="https://raysul-hasan.w3spaces.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-24 transition-all duration-500 z-40'>
+                            <button className=' btn btn-sm text-white'>Live Project</button>
+                        </div>
+                        </a>
+                        {/* title */}
+                        <a
+                            href="https://github.com/Nieem/assign_2_online_food_portal.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-10 
+                        transition-all duration-700 z-40'>
+                            <button className='btn btn-sm text-white ms-3'> Github</button>
+                        </div>
+                        </a>
                     </div>
                     </motion.div>
                               {/*end left side */}
@@ -53,7 +75,7 @@ const Work = () => {
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{once:false,amount:0.3}} 
-                 className='flex-1 flex flex-col gap-y-10 xl:pt-16'>
+                 className='flex-1 flex flex-col gap-y-10 xl:pb-10'>
                     {/* image */}
                     <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                     {/* overlay */}
@@ -63,12 +85,33 @@ const Work = () => {
                     <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt=''/>
                     {/* pretitle */}
                     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
-                        <span className='text-gray-300'>UI/UX Design</span></div>
-                    {/* title */}
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-14 
-                    transition-all duration-700 z-40'>
-                        <span className='text-3xl text-white'>Portfolio</span>
-                    </div>
+                            <span className='text-gray-300'> React Router & Authentication<br/> with Firebase</span>
+                        </div>
+                        {/* title */}
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-14 
+                        transition-all duration-700 z-40'>
+                            <span className='text-3xl text-white'> BD IT Training </span>
+                        </div>
+                        <a
+                            href="https://assign4client.web.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-24 transition-all duration-500 z-40'>
+                            <button className=' btn btn-sm text-white'>Live Project</button>
+                        </div>
+                        </a>
+                        {/* title */}
+                        <a
+                            href="https://github.com/Nieem/assign4client.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-10 
+                        transition-all duration-700 z-40'>
+                            <button className='btn btn-sm text-white ms-3'> Github</button>
+                        </div>
+                        </a>
                 </div>
 
 
@@ -80,12 +123,33 @@ const Work = () => {
                     <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt=''/>
                     {/* pretitle */}
                     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
-                        <span className='text-gray-300'>UI/UX Design</span></div>
-                    {/* title */}
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-14 
-                    transition-all duration-700 z-40'>
-                        <span className='text-3xl text-white'>Portfolio</span>
-                    </div>
+                            <span className='text-gray-300'> Full-stack (MERN) Project</span>
+                        </div>
+                        {/* title */}
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-14 
+                        transition-all duration-700 z-40'>
+                            <span className='text-3xl text-white'>Online Book Shop</span>
+                        </div>
+                        <a
+                            href="https://assign-5-raysul.netlify.app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-24 transition-all duration-500 z-40'>
+                            <button className=' btn btn-sm text-white'>Live Project</button>
+                        </div>
+                        </a>
+                        {/* title */}
+                        <a
+                            href="https://github.com/Nieem/assign-5-client.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                        <div className='absolute -bottom-full left-80 group-hover:bottom-10 
+                        transition-all duration-700 z-40'>
+                            <button className='btn btn-sm text-white ms-3'> Github</button>
+                        </div>
+                        </a>
                   </div>
                 </motion.div>
                    {/* end right side */}

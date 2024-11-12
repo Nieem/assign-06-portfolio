@@ -5,25 +5,21 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 const services=[
     {
-        name:'UI/UX designer',
-        description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        name:'Front-end Developer(React)',
+        description:'The React library is a front-end development toolkit. Developers use it to handle the view layer of an application, which only deals with the elements of a page that are visible to users. However, the React library is JavaScript based, and JavaScript is a full-stack technology. I am expertise in Tailwind css,Daisy UI and raw Javascript.',
+         link:'Learn more'
+    },
+    {
+        name:' FULL-STACK(MERN) DEVELOPER',
+        description:'MERN stack is a collection of technologies that enables faster application development. It is used by developers worldwide. Thus, if one knows JavaScript (and JSON), the backend, frontend, and database can be operated easily. I have used nodejs ,Mongodb as a backend tehnology.I have also experienced in NextJs.',
          link:'Learn more'
     },
     {
         name:'.NET DEVELOPER',
-        description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        description:'I have experieneed with .NET framework.MSSql server,Entity Framework,ASP.NET Core are all are the technology used by me.',
          link:'Learn more'
     },
-    {
-        name:'MERN STACK DEVELOPER',
-        description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-         link:'Learn more'
-    },
-    {
-        name:'MOBILE APP DEVELOPER',
-        description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-         link:'Learn more'
-    }
+   
 ]
 
 const Services = () => {
@@ -64,7 +60,7 @@ const Services = () => {
                                             <h4 className='text-[20] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
                                             <p className='font-secondary leading-tight'>{description}</p>
                                         </div>
-                                        <div>links</div>
+                                        {/* <div>links</div> */}
                                     </motion.div>
                                 );
                             

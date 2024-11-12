@@ -4,6 +4,7 @@ import {FaGithub,FaYoutube,FaDribbble, FaLinkedin} from 'react-icons/fa';
 import { fadeIn } from '../variants';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import resume_raysul from '../assets/files/raysul_hasan_cv.pdf'
 
 const Banner = () => {
     return (
@@ -22,11 +23,11 @@ const Banner = () => {
                         <span className='mr-4'>I am a</span>
                         <TypeAnimation
                         sequence={[
-                            'Web Developer',
+                            'Front-end(React) Developer',
                             2000,
-                            'DB Administrator',
+                            'Full-stack(MERN) Developer ',
                             2000,
-                            'Mobile App Developer',
+                            'ASP.NET Developer',
                             2000
                         ]}
                         speed={50}
@@ -41,10 +42,8 @@ const Banner = () => {
                      variants={fadeIn('up',0.5)}
                      initial='hidden'
                      whileInView={'show'}
-                     viewport={{once:false,amount:0.7}}>
-                        fgfg hjkhjkhk hjjjhj hghghjg hghghghg ghjgjhg
-                        hgghj jhjkhjkhkj jhhjkhjj jhjhjhjkk jhjhk gggg
-                        ffgfg 
+                     viewport={{once:false,amount:0.7}} className='ms-2'>
+                         Full stack software developer. Expertise in ASP.NET,React,Node JS,Sql Server,MongoDb,NEXTjs etc.
                     </motion.p>
                     <motion.div 
                     variants={fadeIn('up',0.6)}
@@ -52,19 +51,36 @@ const Banner = () => {
                     whileInView={'show'}
                     viewport={{once:false,amount:0.7}}>
                         <button className='btn btn-lg'> contact me</button>
+                        <a href={resume_raysul} download="Raysul's Resume" target='_blank'>
+                          <button className='btn btn-lg  ms-1'> Download Resume</button>
+                          </a>
 
                     </motion.div>
 
-                    <div className='flex text-[20] gap-x-6 max-w-max mx-auto lg:ms-5 mt-2'>
-                        <a href='#'>
-                            <FaGithub/>
+                    <div className='flex text-[20] gap-x-6 max-w-max mx-auto xl:ms-24 mt-2 xl:text[40]'>
+                        <a
+                            href="https://www.linkedin.com/in/nieem-hasan-a112b0bb/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <FaLinkedin size={30}/>
                         </a>
-                        <a href='#'>
-                            <FaYoutube/>
+                        
+                         <a
+                        href="https://github.com/Nieem"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <FaGithub size={30}/>
                         </a>
-                        <a href='#'>
-                            <FaLinkedin/>
+                        <a
+                            href="https://www.youtube.com/@raysulhasan5966"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <FaYoutube size={30}/>
                         </a>
+                        
                     </div>
                  </div>
                  
